@@ -1,5 +1,28 @@
 
-* works for Facebook + 60sec
+DONE works for Facebook + 60sec
+
+* "session": run until when all tabs from websites are either closed or idle for > 5 mins
+
+// strategies:
+    in content script, update "session still alive"
+
+    STATE: 
+        hostname : {
+            last_session_ping : 
+        }
+        if last_session_ping < 3m or last_session_ping > 60m 
+
+    PAGE:
+        continuously open -> update last_session_ping
+
+        any from site wasn't open for 3 minutes ->
+            don't update last_session_ping, don't close, don't let new pages open
+
+        every minute:
+            if (tab is visible):
+                if (last_session_ping < 3m away)
+                    last_session_ping = now
+
 
 * editable debounce time
 * editable website list
