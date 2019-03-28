@@ -15,5 +15,13 @@
     "web_accessible_resources": [
         "page.html",
         "pageScript.js"
-    ]
+    ],
+    "options_ui": {
+        "page": "options/options.html",
+        "open_in_tab": false
+    },
+    "description": "Lets you use distracting sites - just not too often. You open Facebook, it's OK, but then you can only open it again in an hour",
+    "icons": {
+       "128": "icon.png"
+    }
   }

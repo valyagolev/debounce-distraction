@@ -1,7 +1,7 @@
 
 DONE works for Facebook + 60sec
 
-* "session": run until when all tabs from websites are either closed or idle for > 5 mins
+DONE "session": run until when all tabs from websites are either closed or idle for > 5 mins
 
 // strategies:
     in content script, update "session still alive"
@@ -24,7 +24,9 @@ DONE works for Facebook + 60sec
                     last_session_ping = now
 
 
-* editable debounce time
-* editable website list
+DONE editable debounce time
+DONE editable website list
+
+* some style and stuff
 
 * publish extension
