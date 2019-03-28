@@ -1,0 +1,7 @@
+
+* works for Facebook + 60sec
+
+* editable debounce time
+* editable website list
+
+* publish extension
